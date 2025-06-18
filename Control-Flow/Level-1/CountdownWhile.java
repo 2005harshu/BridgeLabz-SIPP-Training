@@ -5,7 +5,7 @@ public class CountdownWhile {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter countdown start number: ");
         int counter = sc.nextInt();
-
+    // countdown using while loop
         while (counter >= 1) {
             System.out.println(counter);
             counter--;
