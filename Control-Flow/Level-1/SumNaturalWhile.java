@@ -5,7 +5,7 @@ public class SumNaturalWhile {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a natural number: ");
         int n = sc.nextInt();
-
+// sum of natural number using while
         if (n >= 1) {
             int formulaSum = n * (n + 1) / 2;
             int whileSum = 0, i = 1;
