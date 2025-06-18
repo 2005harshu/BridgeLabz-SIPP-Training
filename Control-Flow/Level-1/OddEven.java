@@ -5,7 +5,7 @@ public class OddEven {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-
+// Check wheather odd or even
         if (n >= 1) {
             for (int i = 1; i <= n; i++) {
                 System.out.println(i + " is " + (i % 2 == 0 ? "Even" : "Odd"));
