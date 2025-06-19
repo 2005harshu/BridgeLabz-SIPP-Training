@@ -5,7 +5,7 @@ public class CountdownFor {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter countdown start number: ");
         int num = sc.nextInt();
-
+    // Cuntdown using for loop
         for (int i = num; i >= 1; i--) {
             System.out.println(i);
         }

@@ -6,6 +6,7 @@ public class SumNaturalFor {
         System.out.print("Enter a natural number: ");
         int n = sc.nextInt();
 
+        //sum of natural number using for
         if (n >= 1) {
             int formulaSum = n * (n + 1) / 2;
             int forSum = 0;
