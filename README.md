@@ -1,6 +1,6 @@
 # 🌟 BridgeLabz SIPP Training - My Daily Java Journey 🚀
 
-Welcome to my **BridgeLabz-SIPP-Training** GitHub repository!
+Welcome to my **BridgeLabz-SIPP-Training** GitHub repository! 🎯
 
 This repository is a **chronological roadmap** of my Java learning journey, covering **Core Java** and **Object-Oriented Programming (OOPS)**.  
 Each day’s entry outlines key concepts, real-world practice, and links to the actual code stored in separate Git branches.
