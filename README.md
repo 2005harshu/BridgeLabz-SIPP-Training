@@ -11,7 +11,6 @@ Welcome to my **BridgeLabz-SIPP-Training** GitHub repository! 🎯
 📁 `DSA` – Implementations and practice problems with examples
 📁 `Generics` – Basics to Advance level of generics
 📁 `WorkShop` – Weekly practice problems of covered topics
-
 ---
 
 ## 📚 CORE-JAVA Branch
