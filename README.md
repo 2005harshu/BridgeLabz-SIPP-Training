@@ -49,7 +49,7 @@ Welcome to my **BridgeLabz-SIPP-Training** GitHub repository! 🎯
 | 2   | 🔴 Stack and Queue              | Implementation of Stack and Queue using Linked Lists                                     | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/DSA/Stack_Queue_Hashmap/StackQueue)          |
 | 3   | 🟢 Hashmap                      | Implementation of HashMap and hash set using Linked Lists                                | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/DSA/Stack_Queue_Hashmap/Hashmap)          |
 | 4   | 🔵 Sorting Algorithms           | Types of sorting algorithms with examples                                                | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/DSA/Java_SortingAlgo)          |
-| 5   | ⚪ Searching Algorithms         | Types of searching algorithms & examples                                                 | 🔗 [View Code]()          |
+| 5   | ⚪ Searching Algorithms         | Types of searching algorithms & examples                                                 | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/DSA/javaSearchingAlgo)          |
 
 ---
 
