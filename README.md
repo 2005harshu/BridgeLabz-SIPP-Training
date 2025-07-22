@@ -7,10 +7,11 @@ Welcome to my **BridgeLabz-SIPP-Training** GitHub repository! 🎯
 
 📁 `main` – Just the README and global logs  
 📁 `CORE-JAVA` – Daily Core Java practice  
-📁 `OOPS` – Object-Oriented Programming with real-world examples
-📁 `DSA` – Implementations and practice problems with examples
-📁 `Generics` – Basics to Advance level of generics
-📁 `WorkShop` – Weekly practice problems of covered topics
+📁 `OOPS` – Object-Oriented Programming with real-world examples  
+📁 `DSA` – Implementations and practice problems with examples   
+📁 `Generics` – Basics to Advance level of generics  
+📁 `WorkShop` – Weekly practice problems of covered topics  
+
 ---
 
 ## 📚 CORE-JAVA Branch
