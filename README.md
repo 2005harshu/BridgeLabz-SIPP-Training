@@ -58,7 +58,9 @@ Welcome to my **BridgeLabz-SIPP-Training** GitHub repository! 🎯
 
 | Day | Topic                           | Summary                                                                                  | Link                                                                                                                     |
 |-----|----------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| 1   | 🟡 Generics                     | Basic Generics with types, their implementation & examples                               | 🔗 [View Code]()          |
+| 1   | 🟡 Generics                     | Basic Generics with types, their implementation & examples                               | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/Generics%26Collections/Generics/Generics)          |
+| 2   | 🟢 Collections                 | Java collection interface in depth concepts                                               | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/Generics%26Collections/Generics/Collections)|
+| 3   | 🔵 Java I/O Streams            | Java input output streams and it's methods                                                | 🔗 [View Code](https://github.com/2005harshu/BridgeLabz-SIPP-Training/tree/Generics%26Collections/Generics/JavaStreams)|
 
 
 ---
