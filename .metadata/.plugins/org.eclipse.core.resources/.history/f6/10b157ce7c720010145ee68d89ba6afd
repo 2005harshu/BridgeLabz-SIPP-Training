@@ -1,0 +1,30 @@
+package regularExpression;
+import java.util.regex.*;
+
+public class RegexExample {
+	public static void main(String[] args) {
+		//String regex ="\\d{3}";
+		
+		
+		
+		String regex ="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$";
+
+		Pattern pattern =Pattern.compile(regex);
+		
+		String input = "harshita45@gmail.com";
+		Matcher matcher = pattern.matcher(input);
+		
+		//String[] emails = {"test@..example.com", "invalid@", "user@domain"};
+
+		 if(matcher.matches()) {
+			 System.out.println("Valid "+input);
+			 
+		 }
+		 else {
+			 System.out.println("InValid "+input);
+		 }
+//		while(matcher.find()) {
+//			System.out.println("Matched:" + matcher.group());
+//		}
+	}
+}

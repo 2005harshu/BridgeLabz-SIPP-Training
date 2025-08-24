@@ -1,0 +1,33 @@
+package regularExpression;
+import java.util.regex.*;
+
+public class Email {
+	String emailAddress; 
+	
+	public Email(String emailAddress){
+		this.emailAddress=emailAddress;
+	}
+	
+	public String toString() {
+		return emailAddress;
+	}
+	
+	public String getEmail() {
+		return emailAddress;
+	}
+	
+	public void setEmail(String emailAddress) {
+		this.emailAddress=emailAddress;
+	}
+	
+	public boolean validEmail(String emailAddress) {
+		String regex = "^[a-zA-Z0-9_.+-]+@company+\\.com$";
+		if(emailAddress!=null && emailAddress.matches(regex)) {
+			return true;
+		}
+		else {
+			throw new InvalidEmailFormatException("Invalid Email Format: "+emailAddress);
+		}
+	}
+	
+}
