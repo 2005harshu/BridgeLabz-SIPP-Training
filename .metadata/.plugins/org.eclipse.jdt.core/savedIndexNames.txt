@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\BridgeLabz-SIPP-Training\.metadata\.plugins\org.eclipse.jdt.core
-3933804599.index
-1427647212.index
-1865797976.index
