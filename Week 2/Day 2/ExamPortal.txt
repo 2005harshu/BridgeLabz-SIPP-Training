@@ -1,0 +1,28 @@
+Start
+Class User
+    Attributes: username, password
+    Method: login()
+
+Class Student extends User
+    Attributes: enrolledCourse
+    Method: login()
+        If valid credentials AND enrolledCourse is not null
+            Print "Access granted: Show available exams"
+        Else
+            Print "Access denied: Not enrolled or invalid login"
+
+Class Admin extends User
+    Attributes: adminPrivileges
+    Method: login()
+        If valid credentials AND adminPrivileges = true
+            Print "Access granted: Show exam management tools"
+        Else
+            Print "Access denied: Invalid staff login"
+
+Main:
+    Create Student object ("john123", "pass123", "Maths")
+    student.login()
+
+    Create Admin object ("admin1", "adminpass", true)
+    admin.login()
+End

@@ -1,0 +1,34 @@
+Start
+Class Vehicle
+    Attributes: vehicleNumber, entryTime
+    Method: calculateFee(exitTime) → return 0 (default)
+
+Class Car extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = (exitTime - entryTime)
+        fee = 50 + (hours - 1) * 30
+        Return fee
+
+Class Bike extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = (exitTime - entryTime)
+        fee = 20 + (hours - 1) * 10
+        Return fee
+
+Class Truck extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = (exitTime - entryTime)
+        fee = 100 + (hours - 1) * 50
+        Return fee
+
+Main:
+    car = Car("KA05AB1234", 10:00)
+    bike = Bike("KA05XY7890", 11:15)
+    truck = Truck("KA09TR5566", 09:30)
+
+    carFee = car.calculateFee(13:30)  → 125
+    bikeFee = bike.calculateFee(12:00) → 30
+    truckFee = truck.calculateFee(14:00) → 325
+
+    Print tickets with vehicleNumber and fee
+End

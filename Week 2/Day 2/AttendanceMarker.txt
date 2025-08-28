@@ -1,0 +1,28 @@
+Start
+Initialize attendance[30][30] with 0
+
+Method markAttendance(studentId, day, status)
+    attendance[studentId][day] = status  // 1 = Present, 0 = Absent
+
+Method dailySummary(day)
+    count = sum of attendance[i][day] for all students
+    Print count
+
+Method monthlySummary(studentId)
+    count = sum of attendance[studentId][j] for all days
+    Print count
+
+Method defaulterList()
+    For each student
+        total = sum(attendance[student][j])
+        If total < 22 (75% of 30)
+            Print studentId
+
+Main:
+    markAttendance(1, 1, 1) // Student 1 present on Day 1
+    markAttendance(3, 1, 0) // Student 3 absent on Day 1
+
+    dailySummary(10)
+    monthlySummary(5)
+    defaulterList()
+End

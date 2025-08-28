@@ -1,0 +1,15 @@
+Start
+text = "Sports bring people together. Sports inspire teamwork. Sports create leaders."
+
+words = split text into list
+normalize words (lowercase, remove punctuation)
+
+map = new HashMap<String, Integer>()
+
+For each word in words:
+    map.put(word, map.getOrDefault(word, 0) + 1)
+
+Print frequency of each word
+Find most frequent word
+Find least frequent word
+End

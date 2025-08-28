@@ -1,0 +1,21 @@
+Start
+Class SurveyResponse
+    Attributes: restaurantName, rating
+
+Main:
+    responses = [
+        ("PizzaHut", 4), ("PizzaHut", 5),
+        ("KFC", 3), ("KFC", 4),
+        ("Subway", 5), ("Subway", 4), ("Subway", 5)
+    ]
+
+    groupBy restaurantName → calculate average rating
+
+    PizzaHut → (4 + 5)/2 = 4.5
+    KFC → (3 + 4)/2 = 3.5
+    Subway → (5 + 4 + 5)/3 = 4.67
+
+    Print results
+    Find restaurant with max rating
+    Find restaurant with min rating
+End

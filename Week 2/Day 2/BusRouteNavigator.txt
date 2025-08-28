@@ -1,0 +1,31 @@
+Start
+Class Node
+    Attributes: stopName, next
+
+Class LinkedList
+    head = null
+    Method insert(stopName)
+        Create new Node
+        Add to end of list
+
+    Method delete(stopName)
+        Traverse list
+        If stop found, unlink node
+
+    Method search(stopName)
+        Traverse list
+        If found, return true
+        Else return false
+
+Main:
+    route = LinkedList()
+    route.insert("Depot")
+    route.insert("Main Street")
+    route.insert("City Mall")
+    route.insert("Hospital")
+    route.insert("Airport")
+
+    route.insertAfter("City Mall", "University")
+    route.delete("Hospital")
+    route.search("Airport") → found
+End
