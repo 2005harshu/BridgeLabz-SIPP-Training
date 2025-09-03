@@ -1,0 +1,36 @@
+CLASS Course
+    title
+    duration
+    price
+
+CLASS Student
+    name
+    email
+    enrolledCourses (list)
+
+METHOD enrollCourse(course)
+    IF course not in enrolledCourses
+        add course to enrolledCourses
+
+METHOD viewCourses()
+    FOR each course in enrolledCourses
+        PRINT course.title, course.duration, course.price
+
+MAIN
+    create course1 (Java Basics, 6 weeks, 4999)
+    create course2 (Data Structures, 8 weeks, 5999)
+    create course3 (Spring Boot, 10 weeks, 6999)
+
+    create student1 (Amit)
+    student1.enrollCourse(course1)
+    student1.enrollCourse(course2)
+
+    create student2 (Priya)
+    student2.enrollCourse(course3)
+    student2.enrollCourse(course1)
+
+    PRINT "Amit's Courses"
+    student1.viewCourses()
+
+    PRINT "Priya's Courses"
+    student2.viewCourses()

@@ -1,0 +1,23 @@
+CLASS Transaction<T>
+    paymentDetails
+    METHOD processPayment()
+        PRINT details according to type
+
+CLASS UPI
+    upiId, amount, merchant
+
+CLASS Card
+    cardNumber, cvv, expiry, amount, merchant
+
+CLASS NetBanking
+    bankName, accountNumber, amount, merchant
+
+MAIN
+    t1 = Transaction(UPI("ramesh@upi", 1200, "Amazon"))
+    t1.processPayment()
+
+    t2 = Transaction(Card("1234-5678", "123", "12/27", 5000, "MakeMyTrip"))
+    t2.processPayment()
+
+    t3 = Transaction(NetBanking("HDFC", "00112233", 8000, "Company"))
+    t3.processPayment()

@@ -1,0 +1,19 @@
+CLASS Room
+    customerName
+    daysStayed
+    METHOD calculateBill()
+
+CLASS DeluxeRoom EXTENDS Room
+    METHOD calculateBill()
+        RETURN daysStayed * 3000
+
+CLASS SuiteRoom EXTENDS Room
+    METHOD calculateBill()
+        RETURN daysStayed * 5000
+
+MAIN
+    create r1 = DeluxeRoom("Ravi", 3)
+    PRINT r1.customerName, r1.calculateBill()
+
+    create r2 = SuiteRoom("Anita", 2)
+    PRINT r2.customerName, r2.calculateBill()

@@ -1,0 +1,19 @@
+FUNCTION binarySearch(products, key)
+    left = 0
+    right = length(products) - 1
+    WHILE left <= right
+        mid = (left + right) / 2
+        IF products[mid] == key
+            RETURN true
+        ELSE IF products[mid] < key
+            left = mid + 1
+        ELSE
+            right = mid - 1
+    RETURN false
+
+MAIN
+    products = [AirPods, Backpack, Camera, Laptop, Shoes, Smartphone, Watch]
+
+    PRINT binarySearch(products, "Laptop")
+    PRINT binarySearch(products, "Headphones")
+    PRINT binarySearch(products, "Shoes")

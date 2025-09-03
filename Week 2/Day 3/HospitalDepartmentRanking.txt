@@ -1,0 +1,14 @@
+CLASS Doctor
+    name
+    specialization
+    experience
+
+MAIN
+    map = empty dictionary
+    map["Cardiology"] = [Doctor(Mehta, Cardiologist, 15), Doctor(Kapoor, Cardiologist, 10)]
+    map["Neurology"] = [Doctor(Sharma, Neurologist, 10), Doctor(Das, Neurologist, 8)]
+    map["Pediatrics"] = [Doctor(Ritu, Pediatrician, 12), Doctor(Anjali, Pediatrician, 7)]
+
+    doctors = map["Neurology"]
+    FOR each d in doctors
+        PRINT d.name, d.specialization, d.experience
